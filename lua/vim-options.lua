@@ -6,7 +6,7 @@ vim.cmd("set shiftwidth=4")
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.g.mapleader = " "
-vim.g.localleader = ","
+vim.g.maplocalleader = ","
 
 vim.opt.swapfile = false
 vim.opt.backup = false
