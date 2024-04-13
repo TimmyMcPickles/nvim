@@ -29,7 +29,7 @@ return {
         end
 
         vim.keymap.set("n", "<leader>a", function()
-            harpoon:list():append()
+            harpoon:list():add()
         end)
         vim.keymap.set("n", "<C-e>", function()
             toggle_telescope(harpoon:list())
